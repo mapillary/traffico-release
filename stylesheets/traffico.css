@@ -247,270 +247,46 @@
 .t-shared-path-lines:before { content: "\f152"; }
 .t-side-road-a-a-l:before { content: "\f153"; }
 .t-side-road-a-a-r:before { content: "\f154"; }
-.t-side-road-p-l:before { content: "\f17b"; }
-.t-side-road-p-r:before { content: "\f155"; }
-.t-single-2-reverse-curve:before { content: "\f156"; }
-.t-skewed-railroads:before { content: "\f157"; }
-.t-slippery:before { content: "\f158"; }
-.t-slippery-road:before { content: "\f159"; }
-.t-snowflake:before { content: "\f15a"; }
-.t-square-bg:before { content: "\f15b"; }
-.t-square-o:before { content: "\f15c"; }
-.t-steep-hill:before { content: "\f15d"; }
-.t-stop:before { content: "\f15e"; }
-.t-stoplights-g:before { content: "\f15f"; }
-.t-stoplights-r:before { content: "\f160"; }
-.t-stoplights-y:before { content: "\f161"; }
-.t-t-2-traverse-curve:before { content: "\f162"; }
-.t-t-roads:before { content: "\f163"; }
-.t-traffic-l-bg:before { content: "\f164"; }
-.t-traffic-l-g:before { content: "\f165"; }
-.t-traffic-l-r:before { content: "\f166"; }
-.t-traffic-l-y:before { content: "\f167"; }
-.t-tri-bg:before { content: "\f168"; }
-.t-tri-bg-in:before { content: "\f169"; }
-.t-tri-o:before { content: "\f16a"; }
-.t-tri-r-bg:before { content: "\f16b"; }
-.t-tri-r-o:before { content: "\f16c"; }
-.t-truck:before { content: "\f16d"; }
-.t-truck-rollover-speed:before { content: "\f16e"; }
-.t-trucks-rollover:before { content: "\f16f"; }
-.t-turn-90-l:before { content: "\f170"; }
-.t-turn-90-r:before { content: "\f171"; }
-.t-turn-curve-w-speed:before { content: "\f17c"; }
-.t-turn-l:before { content: "\f172"; }
-.t-turn-r:before { content: "\f173"; }
-.t-turn-reverse-left:before { content: "\f174"; }
-.t-turn-reverse-right:before { content: "\f175"; }
-.t-turnaround:before { content: "\f176"; }
-.t-u-turn:before { content: "\f177"; }
-.t-width:before { content: "\f178"; }
-.t-winding-road:before { content: "\f179"; }
-.t-y-roads:before { content: "\f17a"; }
-
-.t {
-  display: inline-block;
-  font: normal normal normal 14px/1 traffico;
-  position: relative;
-  width: 1em;
-  height: 1em;
-  line-height: 1em;
-  vertical-align: middle;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.t i {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-.fit {
-  font-size: 75%;
-  padding-top: 3%;
-}
-
-.t-r-no {
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  border-radius: 3px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.5em;
-  font-weight: bold;
-}
-
-.t-r-no-yellow {
-  background-color: yellow;
-  color: black;
-  border: 2px solid black;
-}
-
-.t-r-no-green {
-  background-color: darkgreen;
-  color: white;
-}
-
-.t-content {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 45%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-content-3 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 35%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-content-4 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 25%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-stoplights-r {
-  color: red;
-}
-
-.t-stoplights-y {
-  color: yellow;
-}
-
-.t-stoplights-g {
-  color: green;
-}
-
-.t-c-white {
-  color: white;
-}
-
-.t-c-red {
-  color: red;
-}
-
-.t-c-blue {
-  color: mediumblue;
-}
-
-.t-c-black {
-  color: black;
-}
-
-.t-c-yellow {
-  color: yellow;
-}
-
-.t-c-grey {
-  color: grey;
-}
-
-.t-c-green {
-  color: darkgreen;
-}
-
-.t {
-  display: inline-block;
-  font: normal normal normal 14px/1 traffico;
-  position: relative;
-  width: 1em;
-  height: 1em;
-  line-height: 1em;
-  vertical-align: middle;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.t i {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-.fit {
-  font-size: 75%;
-  padding-top: 3%;
-}
-
-.t-r-no {
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  border-radius: 3px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.5em;
-  font-weight: bold;
-}
-
-.t-r-no-yellow {
-  background-color: yellow;
-  color: black;
-  border: 2px solid black;
-}
-
-.t-r-no-green {
-  background-color: darkgreen;
-  color: white;
-}
-
-.t-content {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 45%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-content-3 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 35%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-content-4 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 25%;
-  line-height: inherit;
-  letter-spacing: -1px;
-}
-
-.t-stoplights-r {
-  color: red;
-}
-
-.t-stoplights-y {
-  color: yellow;
-}
-
-.t-stoplights-g {
-  color: green;
-}
-
-.t-c-white {
-  color: white;
-}
-
-.t-c-red {
-  color: red;
-}
-
-.t-c-blue {
-  color: mediumblue;
-}
-
-.t-c-black {
-  color: black;
-}
-
-.t-c-yellow {
-  color: yellow;
-}
-
-.t-c-grey {
-  color: grey;
-}
-
-.t-c-green {
-  color: darkgreen;
-}
+.t-side-road-p-l:before { content: "\f155"; }
+.t-side-road-p-r:before { content: "\f156"; }
+.t-single-2-reverse-curve:before { content: "\f157"; }
+.t-skewed-railroads:before { content: "\f158"; }
+.t-slippery:before { content: "\f159"; }
+.t-slippery-road:before { content: "\f15a"; }
+.t-snowflake:before { content: "\f15b"; }
+.t-square-bg:before { content: "\f15c"; }
+.t-square-o:before { content: "\f15d"; }
+.t-steep-hill:before { content: "\f15e"; }
+.t-stop:before { content: "\f15f"; }
+.t-stoplights-g:before { content: "\f160"; }
+.t-stoplights-r:before { content: "\f161"; }
+.t-stoplights-y:before { content: "\f162"; }
+.t-t-2-traverse-curve:before { content: "\f163"; }
+.t-t-roads:before { content: "\f164"; }
+.t-traffic-l-bg:before { content: "\f165"; }
+.t-traffic-l-g:before { content: "\f166"; }
+.t-traffic-l-r:before { content: "\f167"; }
+.t-traffic-l-y:before { content: "\f168"; }
+.t-tri-bg:before { content: "\f169"; }
+.t-tri-bg-in:before { content: "\f16a"; }
+.t-tri-o:before { content: "\f16b"; }
+.t-tri-r-bg:before { content: "\f16c"; }
+.t-tri-r-o:before { content: "\f16d"; }
+.t-truck:before { content: "\f16e"; }
+.t-truck-rollover-speed:before { content: "\f16f"; }
+.t-trucks-rollover:before { content: "\f170"; }
+.t-turn-90-l:before { content: "\f171"; }
+.t-turn-90-r:before { content: "\f172"; }
+.t-turn-curve-w-speed:before { content: "\f173"; }
+.t-turn-l:before { content: "\f174"; }
+.t-turn-r:before { content: "\f175"; }
+.t-turn-reverse-left:before { content: "\f176"; }
+.t-turn-reverse-right:before { content: "\f177"; }
+.t-turnaround:before { content: "\f178"; }
+.t-u-turn:before { content: "\f179"; }
+.t-width:before { content: "\f17a"; }
+.t-winding-road:before { content: "\f17b"; }
+.t-y-roads:before { content: "\f17c"; }
 
 .t {
   display: inline-block;
