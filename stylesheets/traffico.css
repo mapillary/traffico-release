@@ -23,17 +23,12 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.t-DE-arrow-up:before,
+.t-US-arrow-up:before,
+.t-added-lane:before,
 .t-added-lane-entering-roadway:before,
-.t-added-lanes:before,
-.t-animal:before,
-.t-arrow-45-l:before,
-.t-arrow-45-r:before,
 .t-arrow-l:before,
-.t-arrow-r:before,
 .t-arrow-s-l:before,
-.t-arrow-s-r:before,
-.t-arrow-straight:before,
-.t-arrow-up:before,
 .t-bicycle:before,
 .t-bicycle-slippery:before,
 .t-bump:before,
@@ -42,36 +37,29 @@
 .t-car-right:before,
 .t-children:before,
 .t-circle-bar:before,
+.t-circle-bar-rounded:before,
 .t-circle-bg:before,
-.t-circle-line-l:before,
-.t-circle-line-r:before,
 .t-circle-o:before,
-.t-circle-x:before,
+.t-circle-separator:before,
 .t-cliff:before,
 .t-cross-roads:before,
 .t-curve-r-l:before,
-.t-curve-r-r:before,
 .t-d-curve-l:before,
-.t-d-curve-r:before,
 .t-dead-end:before,
 .t-diamond-bg:before,
 .t-diamond-o:before,
-.t-disabled:before,
 .t-disabled-p:before,
-.t-double-reverse-curve:before,
 .t-end:before,
 .t-exclamation:before,
 .t-falling-rocks:before,
 .t-fire-station:before,
 .t-flaggers:before,
 .t-footpath:before,
+.t-h:before,
 .t-h-align-l:before,
-.t-h-align-r:before,
-.t-h-align-r-2:before,
 .t-hairpin-curve:before,
 .t-hazardous-material:before,
 .t-height:before,
-.t-highway-both:before,
 .t-highway-divided:before,
 .t-hitch-hiking:before,
 .t-light-rail:before,
@@ -82,11 +70,9 @@
 .t-low-clearance:before,
 .t-merge:before,
 .t-metric-clearance:before,
-.t-motor-vehicles:before,
 .t-motorbike:before,
 .t-narrow-road-both:before,
 .t-narrow-road-l:before,
-.t-narrow-road-r:before,
 .t-no-l-or-u-turn:before,
 .t-octagon:before,
 .t-offset-roads:before,
@@ -99,13 +85,10 @@
 .t-railroad:before,
 .t-right-of-way:before,
 .t-right-of-way-l:before,
-.t-right-of-way-r:before,
 .t-roadworks:before,
 .t-rollerblading:before,
 .t-roundabout:before,
 .t-share-roads:before,
-.t-shared-path:before,
-.t-shared-path-lines:before,
 .t-side-road-a-a-l:before,
 .t-side-road-a-a-r:before,
 .t-side-road-p-l:before,
@@ -119,12 +102,9 @@
 .t-square-o:before,
 .t-steep-hill:before,
 .t-stop:before,
-.t-t-2-traverse-curve:before,
 .t-t-roads:before,
 .t-traffic-l-bg:before,
-.t-traffic-l-bottom:before,
 .t-traffic-l-middle:before,
-.t-traffic-l-top:before,
 .t-tri-bg:before,
 .t-tri-bg-in:before,
 .t-tri-o:before,
@@ -134,17 +114,13 @@
 .t-truck-rollover-speed:before,
 .t-trucks-rollover:before,
 .t-turn-90-l:before,
-.t-turn-90-r:before,
-.t-turn-curve-w-speed:before,
 .t-turn-l:before,
-.t-turn-r:before,
 .t-turn-reverse-left:before,
-.t-turn-reverse-right:before,
 .t-turnaround:before,
+.t-turnaround2:before,
 .t-u-turn:before,
-.t-width:before,
+.t-wild-animal:before,
 .t-winding-road-left:before,
-.t-winding-road-right:before,
 .t-y-roads:before {
   display: inline-block;
   font-family: "traffico";
@@ -160,130 +136,107 @@
   font-smoothing: antialiased;
 }
 
-.t-added-lane-entering-roadway:before { content: "\f100"; }
-.t-added-lanes:before { content: "\f101"; }
-.t-animal:before { content: "\f102"; }
-.t-arrow-45-l:before { content: "\f103"; }
-.t-arrow-45-r:before { content: "\f104"; }
-.t-arrow-l:before { content: "\f105"; }
-.t-arrow-r:before { content: "\f106"; }
-.t-arrow-s-l:before { content: "\f107"; }
-.t-arrow-s-r:before { content: "\f108"; }
-.t-arrow-straight:before { content: "\f109"; }
-.t-arrow-up:before { content: "\f10a"; }
-.t-bicycle:before { content: "\f10b"; }
-.t-bicycle-slippery:before { content: "\f10c"; }
-.t-bump:before { content: "\f10d"; }
-.t-car:before { content: "\f10e"; }
-.t-car-left:before { content: "\f10f"; }
-.t-car-right:before { content: "\f110"; }
-.t-children:before { content: "\f111"; }
-.t-circle-bar:before { content: "\f112"; }
-.t-circle-bg:before { content: "\f113"; }
-.t-circle-line-l:before { content: "\f114"; }
-.t-circle-line-r:before { content: "\f115"; }
-.t-circle-o:before { content: "\f116"; }
-.t-circle-x:before { content: "\f117"; }
-.t-cliff:before { content: "\f118"; }
-.t-cross-roads:before { content: "\f119"; }
-.t-curve-r-l:before { content: "\f11a"; }
-.t-curve-r-r:before { content: "\f11b"; }
-.t-d-curve-l:before { content: "\f11c"; }
-.t-d-curve-r:before { content: "\f11d"; }
-.t-dead-end:before { content: "\f11e"; }
-.t-diamond-bg:before { content: "\f11f"; }
-.t-diamond-o:before { content: "\f120"; }
-.t-disabled:before { content: "\f121"; }
-.t-disabled-p:before { content: "\f122"; }
-.t-double-reverse-curve:before { content: "\f123"; }
-.t-end:before { content: "\f124"; }
-.t-exclamation:before { content: "\f125"; }
-.t-falling-rocks:before { content: "\f126"; }
-.t-fire-station:before { content: "\f127"; }
-.t-flaggers:before { content: "\f128"; }
-.t-footpath:before { content: "\f129"; }
-.t-h-align-l:before { content: "\f12a"; }
-.t-h-align-r:before { content: "\f12b"; }
-.t-h-align-r-2:before { content: "\f12c"; }
-.t-hairpin-curve:before { content: "\f12d"; }
-.t-hazardous-material:before { content: "\f12e"; }
-.t-height:before { content: "\f12f"; }
-.t-highway-both:before { content: "\f130"; }
-.t-highway-divided:before { content: "\f131"; }
-.t-hitch-hiking:before { content: "\f132"; }
-.t-light-rail:before { content: "\f133"; }
-.t-lightground-railroad-crossing:before { content: "\f134"; }
-.t-loop-270:before { content: "\f135"; }
-.t-lorry:before { content: "\f136"; }
-.t-lorry-left:before { content: "\f137"; }
-.t-low-clearance:before { content: "\f138"; }
-.t-merge:before { content: "\f139"; }
-.t-metric-clearance:before { content: "\f13a"; }
-.t-motor-vehicles:before { content: "\f13b"; }
-.t-motorbike:before { content: "\f13c"; }
-.t-narrow-road-both:before { content: "\f13d"; }
-.t-narrow-road-l:before { content: "\f13e"; }
-.t-narrow-road-r:before { content: "\f13f"; }
-.t-no-l-or-u-turn:before { content: "\f140"; }
-.t-octagon:before { content: "\f141"; }
-.t-offset-roads:before { content: "\f142"; }
-.t-parking:before { content: "\f143"; }
-.t-pass-l-r:before { content: "\f144"; }
-.t-pedestrian:before { content: "\f145"; }
-.t-pedestrian-crossing:before { content: "\f146"; }
-.t-pedestrians:before { content: "\f147"; }
-.t-play-ground:before { content: "\f148"; }
-.t-railroad:before { content: "\f149"; }
-.t-right-of-way:before { content: "\f14a"; }
-.t-right-of-way-l:before { content: "\f14b"; }
-.t-right-of-way-r:before { content: "\f14c"; }
-.t-roadworks:before { content: "\f14d"; }
-.t-rollerblading:before { content: "\f14e"; }
-.t-roundabout:before { content: "\f14f"; }
-.t-share-roads:before { content: "\f150"; }
-.t-shared-path:before { content: "\f151"; }
-.t-shared-path-lines:before { content: "\f152"; }
-.t-side-road-a-a-l:before { content: "\f153"; }
-.t-side-road-a-a-r:before { content: "\f154"; }
-.t-side-road-p-l:before { content: "\f155"; }
-.t-side-road-p-r:before { content: "\f156"; }
-.t-single-2-reverse-curve:before { content: "\f157"; }
-.t-skewed-railroads:before { content: "\f158"; }
-.t-slippery:before { content: "\f159"; }
-.t-slippery-road:before { content: "\f15a"; }
-.t-snowflake:before { content: "\f15b"; }
-.t-square-bg:before { content: "\f15c"; }
-.t-square-o:before { content: "\f15d"; }
-.t-steep-hill:before { content: "\f15e"; }
-.t-stop:before { content: "\f15f"; }
-.t-t-2-traverse-curve:before { content: "\f160"; }
-.t-t-roads:before { content: "\f161"; }
-.t-traffic-l-bg:before { content: "\f162"; }
-.t-traffic-l-bottom:before { content: "\f163"; }
-.t-traffic-l-middle:before { content: "\f164"; }
-.t-traffic-l-top:before { content: "\f165"; }
-.t-tri-bg:before { content: "\f166"; }
-.t-tri-bg-in:before { content: "\f167"; }
-.t-tri-o:before { content: "\f168"; }
-.t-tri-r-bg:before { content: "\f169"; }
-.t-tri-r-o:before { content: "\f16a"; }
-.t-truck:before { content: "\f16b"; }
-.t-truck-rollover-speed:before { content: "\f16c"; }
-.t-trucks-rollover:before { content: "\f16d"; }
-.t-turn-90-l:before { content: "\f16e"; }
-.t-turn-90-r:before { content: "\f16f"; }
-.t-turn-curve-w-speed:before { content: "\f170"; }
-.t-turn-l:before { content: "\f171"; }
-.t-turn-r:before { content: "\f172"; }
-.t-turn-reverse-left:before { content: "\f173"; }
-.t-turn-reverse-right:before { content: "\f174"; }
-.t-turnaround:before { content: "\f175"; }
-.t-u-turn:before { content: "\f176"; }
-.t-width:before { content: "\f177"; }
-.t-winding-road-left:before { content: "\f178"; }
-.t-winding-road-right:before { content: "\f179"; }
-.t-y-roads:before { content: "\f17a"; }
+.t-DE-arrow-up:before { content: "\f100"; }
+.t-US-arrow-up:before { content: "\f101"; }
+.t-added-lane:before { content: "\f102"; }
+.t-added-lane-entering-roadway:before { content: "\f103"; }
+.t-arrow-l:before { content: "\f104"; }
+.t-arrow-s-l:before { content: "\f105"; }
+.t-bicycle:before { content: "\f106"; }
+.t-bicycle-slippery:before { content: "\f107"; }
+.t-bump:before { content: "\f108"; }
+.t-car:before { content: "\f109"; }
+.t-car-left:before { content: "\f10a"; }
+.t-car-right:before { content: "\f10b"; }
+.t-children:before { content: "\f10c"; }
+.t-circle-bar:before { content: "\f10d"; }
+.t-circle-bar-rounded:before { content: "\f10e"; }
+.t-circle-bg:before { content: "\f10f"; }
+.t-circle-o:before { content: "\f110"; }
+.t-circle-separator:before { content: "\f111"; }
+.t-cliff:before { content: "\f112"; }
+.t-cross-roads:before { content: "\f113"; }
+.t-curve-r-l:before { content: "\f114"; }
+.t-d-curve-l:before { content: "\f115"; }
+.t-dead-end:before { content: "\f116"; }
+.t-diamond-bg:before { content: "\f117"; }
+.t-diamond-o:before { content: "\f118"; }
+.t-disabled-p:before { content: "\f119"; }
+.t-end:before { content: "\f11a"; }
+.t-exclamation:before { content: "\f11b"; }
+.t-falling-rocks:before { content: "\f11c"; }
+.t-fire-station:before { content: "\f11d"; }
+.t-flaggers:before { content: "\f11e"; }
+.t-footpath:before { content: "\f11f"; }
+.t-h:before { content: "\f120"; }
+.t-h-align-l:before { content: "\f121"; }
+.t-hairpin-curve:before { content: "\f122"; }
+.t-hazardous-material:before { content: "\f123"; }
+.t-height:before { content: "\f124"; }
+.t-highway-divided:before { content: "\f125"; }
+.t-hitch-hiking:before { content: "\f126"; }
+.t-light-rail:before { content: "\f127"; }
+.t-lightground-railroad-crossing:before { content: "\f128"; }
+.t-loop-270:before { content: "\f129"; }
+.t-lorry:before { content: "\f12a"; }
+.t-lorry-left:before { content: "\f12b"; }
+.t-low-clearance:before { content: "\f12c"; }
+.t-merge:before { content: "\f12d"; }
+.t-metric-clearance:before { content: "\f12e"; }
+.t-motorbike:before { content: "\f12f"; }
+.t-narrow-road-both:before { content: "\f130"; }
+.t-narrow-road-l:before { content: "\f131"; }
+.t-no-l-or-u-turn:before { content: "\f132"; }
+.t-octagon:before { content: "\f133"; }
+.t-offset-roads:before { content: "\f134"; }
+.t-parking:before { content: "\f135"; }
+.t-pass-l-r:before { content: "\f136"; }
+.t-pedestrian:before { content: "\f137"; }
+.t-pedestrian-crossing:before { content: "\f138"; }
+.t-pedestrians:before { content: "\f139"; }
+.t-play-ground:before { content: "\f13a"; }
+.t-railroad:before { content: "\f13b"; }
+.t-right-of-way:before { content: "\f13c"; }
+.t-right-of-way-l:before { content: "\f13d"; }
+.t-roadworks:before { content: "\f13e"; }
+.t-rollerblading:before { content: "\f13f"; }
+.t-roundabout:before { content: "\f140"; }
+.t-share-roads:before { content: "\f141"; }
+.t-side-road-a-a-l:before { content: "\f142"; }
+.t-side-road-a-a-r:before { content: "\f143"; }
+.t-side-road-p-l:before { content: "\f144"; }
+.t-side-road-p-r:before { content: "\f145"; }
+.t-single-2-reverse-curve:before { content: "\f146"; }
+.t-skewed-railroads:before { content: "\f147"; }
+.t-slippery:before { content: "\f148"; }
+.t-slippery-road:before { content: "\f149"; }
+.t-snowflake:before { content: "\f14a"; }
+.t-square-bg:before { content: "\f14b"; }
+.t-square-o:before { content: "\f14c"; }
+.t-steep-hill:before { content: "\f14d"; }
+.t-stop:before { content: "\f14e"; }
+.t-t-roads:before { content: "\f14f"; }
+.t-traffic-l-bg:before { content: "\f150"; }
+.t-traffic-l-middle:before { content: "\f151"; }
+.t-tri-bg:before { content: "\f152"; }
+.t-tri-bg-in:before { content: "\f153"; }
+.t-tri-o:before { content: "\f154"; }
+.t-tri-r-bg:before { content: "\f155"; }
+.t-tri-r-o:before { content: "\f156"; }
+.t-truck:before { content: "\f157"; }
+.t-truck-rollover-speed:before { content: "\f158"; }
+.t-trucks-rollover:before { content: "\f159"; }
+.t-turn-90-l:before { content: "\f15a"; }
+.t-turn-l:before { content: "\f15b"; }
+.t-turn-reverse-left:before { content: "\f15c"; }
+.t-turnaround:before { content: "\f15d"; }
+.t-turnaround2:before { content: "\f15e"; }
+.t-u-turn:before { content: "\f15f"; }
+.t-wild-animal:before { content: "\f160"; }
+.t-winding-road-left:before { content: "\f161"; }
+.t-y-roads:before { content: "\f162"; }
 
+/** Base */
 .t {
   display: inline-block;
   font: normal normal normal 14px/1 traffico;
@@ -302,71 +255,35 @@
   position: absolute;
   left: 0;
   width: 100%;
+  height:1em;
+  line-height:0;
   text-align: center;
 }
-.fit {
-  font-size: 75%;
-  padding-top: 3%;
-}
 
-.t-r-no {
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  border-radius: 3px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.5em;
-  font-weight: bold;
-}
+/** Content */
 
-.t-r-no-yellow {
-  background-color: yellow;
-  color: black;
-  border: 2px solid black;
-}
-
-.t-r-no-green {
-  background-color: darkgreen;
-  color: white;
-}
-
-.t-content {
+.t-content,
+.t-content-3,
+.t-content-4{
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 39%;
-  line-height: 2.75;
-  letter-spacing: -1px;
+  letter-spacing:0;
+  top:48.5%;
+}
+.t-content {
+  font-size: 50%;
 }
 
 .t-content-3 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 35%;
-  line-height: 3.05;
-  letter-spacing: -1px;
+  font-size: 40%;
 }
 
 .t-content-4 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 25%;
-  line-height: inherit;
-  letter-spacing: -1px;
+  font-size: 22.5%;
 }
 
-.t-stoplights-r {
-  color: red;
-}
-
-.t-stoplights-y {
-  color: yellow;
-}
-
-.t-stoplights-g {
-  color: green;
-}
+/** Colours */
 
 .t-c-white {
   color: white;
@@ -374,6 +291,10 @@
 
 .t-c-red {
   color: #c1121c;
+}
+
+.t-c-orange {
+  color: #f60;
 }
 
 .t-c-blue {
