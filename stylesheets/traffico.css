@@ -86,6 +86,7 @@
 .t-roadworks:before,
 .t-rollerblading:before,
 .t-roundabout:before,
+.t-school:before,
 .t-share-roads:before,
 .t-side-road-a-a-l:before,
 .t-side-road-a-a-r:before,
@@ -196,39 +197,40 @@
 .t-roadworks:before { content: "\f13c"; }
 .t-rollerblading:before { content: "\f13d"; }
 .t-roundabout:before { content: "\f13e"; }
-.t-share-roads:before { content: "\f13f"; }
-.t-side-road-a-a-l:before { content: "\f140"; }
-.t-side-road-a-a-r:before { content: "\f141"; }
-.t-side-road-p-l:before { content: "\f142"; }
-.t-side-road-p-r:before { content: "\f143"; }
-.t-single-2-reverse-curve:before { content: "\f144"; }
-.t-skewed-railroads:before { content: "\f145"; }
-.t-slippery:before { content: "\f146"; }
-.t-slippery-road:before { content: "\f147"; }
-.t-snowflake:before { content: "\f148"; }
-.t-square-rounded:before { content: "\f149"; }
-.t-steep-hill:before { content: "\f14a"; }
-.t-stop:before { content: "\f14b"; }
-.t-t-roads:before { content: "\f14c"; }
-.t-traffic-l-bg:before { content: "\f14d"; }
-.t-traffic-l-middle:before { content: "\f14e"; }
-.t-tri-bg:before { content: "\f14f"; }
-.t-tri-bg-in:before { content: "\f150"; }
-.t-tri-o:before { content: "\f151"; }
-.t-tri-r-bg:before { content: "\f152"; }
-.t-tri-r-o:before { content: "\f153"; }
-.t-truck:before { content: "\f154"; }
-.t-truck-rollover-speed:before { content: "\f155"; }
-.t-trucks-rollover:before { content: "\f156"; }
-.t-turn-90-l:before { content: "\f157"; }
-.t-turn-l:before { content: "\f158"; }
-.t-turn-reverse-left:before { content: "\f159"; }
-.t-turnaround:before { content: "\f15a"; }
-.t-turnaround2:before { content: "\f15b"; }
-.t-u-turn:before { content: "\f15c"; }
-.t-wild-animal:before { content: "\f15d"; }
-.t-winding-road-left:before { content: "\f15e"; }
-.t-y-roads:before { content: "\f15f"; }
+.t-school:before { content: "\f13f"; }
+.t-share-roads:before { content: "\f140"; }
+.t-side-road-a-a-l:before { content: "\f141"; }
+.t-side-road-a-a-r:before { content: "\f142"; }
+.t-side-road-p-l:before { content: "\f143"; }
+.t-side-road-p-r:before { content: "\f144"; }
+.t-single-2-reverse-curve:before { content: "\f145"; }
+.t-skewed-railroads:before { content: "\f146"; }
+.t-slippery:before { content: "\f147"; }
+.t-slippery-road:before { content: "\f148"; }
+.t-snowflake:before { content: "\f149"; }
+.t-square-rounded:before { content: "\f14a"; }
+.t-steep-hill:before { content: "\f14b"; }
+.t-stop:before { content: "\f14c"; }
+.t-t-roads:before { content: "\f14d"; }
+.t-traffic-l-bg:before { content: "\f14e"; }
+.t-traffic-l-middle:before { content: "\f14f"; }
+.t-tri-bg:before { content: "\f150"; }
+.t-tri-bg-in:before { content: "\f151"; }
+.t-tri-o:before { content: "\f152"; }
+.t-tri-r-bg:before { content: "\f153"; }
+.t-tri-r-o:before { content: "\f154"; }
+.t-truck:before { content: "\f155"; }
+.t-truck-rollover-speed:before { content: "\f156"; }
+.t-trucks-rollover:before { content: "\f157"; }
+.t-turn-90-l:before { content: "\f158"; }
+.t-turn-l:before { content: "\f159"; }
+.t-turn-reverse-left:before { content: "\f15a"; }
+.t-turnaround:before { content: "\f15b"; }
+.t-turnaround2:before { content: "\f15c"; }
+.t-u-turn:before { content: "\f15d"; }
+.t-wild-animal:before { content: "\f15e"; }
+.t-winding-road-left:before { content: "\f15f"; }
+.t-y-roads:before { content: "\f160"; }
 
 /** Base */
 .t {
@@ -313,4 +315,8 @@
 
 .t-c-green {
   color: #008754;
+}
+
+.t-c-fluogreen {
+  color: #A2FF31;
 }
