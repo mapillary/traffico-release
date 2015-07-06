@@ -32,10 +32,13 @@
 .t-arrow-l:before,
 .t-arrow-oneway:before,
 .t-arrow-s-l:before,
+.t-arrows_both_bra:before,
 .t-bending-priority:before,
 .t-bicycle:before,
 .t-bicycle-slippery:before,
 .t-bump:before,
+.t-bump_bra:before,
+.t-bump_road_bra:before,
 .t-bumps:before,
 .t-bus:before,
 .t-car:before,
@@ -49,6 +52,7 @@
 .t-cliff:before,
 .t-cross-roads:before,
 .t-curve-r-l:before,
+.t-cyclists_crossing_bra:before,
 .t-d-curve-l:before,
 .t-dead-end:before,
 .t-descent:before,
@@ -73,6 +77,7 @@
 .t-light-rail:before,
 .t-lightground-railroad-crossing:before,
 .t-loop-270:before,
+.t-loose_road_surface_bra:before,
 .t-lorry:before,
 .t-lorry-left:before,
 .t-low-clearance:before,
@@ -89,6 +94,8 @@
 .t-pass-l-r:before,
 .t-pedestrian:before,
 .t-pedestrian-crossing:before,
+.t-pedestrian_bra:before,
+.t-pedestrian_crossing_bra:before,
 .t-pedestrians:before,
 .t-play-ground:before,
 .t-pretzel-loop:before,
@@ -98,9 +105,11 @@
 .t-right-of-way:before,
 .t-right-of-way-l:before,
 .t-roadworks:before,
+.t-roadworks_bra:before,
 .t-rollerblading:before,
 .t-roundabout:before,
 .t-school:before,
+.t-school_zone_bra:before,
 .t-share-roads:before,
 .t-side-road-a-a-l:before,
 .t-side-road-a-a-r:before,
@@ -120,6 +129,7 @@
 .t-trailer:before,
 .t-train-electric:before,
 .t-tram:before,
+.t-transit_bra:before,
 .t-tri-angular:before,
 .t-tri-rounded:before,
 .t-truck:before,
@@ -132,6 +142,7 @@
 .t-turn-reverse-left:before,
 .t-turnaround:before,
 .t-turnaround2:before,
+.t-two_way_arrows_bra:before,
 .t-u-turn:before,
 .t-wild-animal:before,
 .t-windbag:before,
@@ -160,111 +171,122 @@
 .t-arrow-l:before { content: "\f106"; }
 .t-arrow-oneway:before { content: "\f107"; }
 .t-arrow-s-l:before { content: "\f108"; }
-.t-bending-priority:before { content: "\f109"; }
-.t-bicycle:before { content: "\f10a"; }
-.t-bicycle-slippery:before { content: "\f10b"; }
-.t-bump:before { content: "\f10c"; }
-.t-bumps:before { content: "\f10d"; }
-.t-bus:before { content: "\f10e"; }
-.t-car:before { content: "\f10f"; }
-.t-car-left:before { content: "\f110"; }
-.t-car-right:before { content: "\f111"; }
-.t-children:before { content: "\f112"; }
-.t-circle-bar-rounded:before { content: "\f113"; }
-.t-circle-bg:before { content: "\f114"; }
-.t-circle-o:before { content: "\f115"; }
-.t-circle-separator:before { content: "\f116"; }
-.t-cliff:before { content: "\f117"; }
-.t-cross-roads:before { content: "\f118"; }
-.t-curve-r-l:before { content: "\f119"; }
-.t-d-curve-l:before { content: "\f11a"; }
-.t-dead-end:before { content: "\f11b"; }
-.t-descent:before { content: "\f11c"; }
-.t-disabled-p:before { content: "\f11d"; }
-.t-domestic-animal:before { content: "\f11e"; }
-.t-end:before { content: "\f11f"; }
-.t-equestrian:before { content: "\f120"; }
-.t-europe_stars:before { content: "\f121"; }
-.t-exclamation:before { content: "\f122"; }
-.t-falling-rocks:before { content: "\f123"; }
-.t-fire-station:before { content: "\f124"; }
-.t-flaggers:before { content: "\f125"; }
-.t-footpath:before { content: "\f126"; }
-.t-h:before { content: "\f127"; }
-.t-h-align-l:before { content: "\f128"; }
-.t-hairpin-curve:before { content: "\f129"; }
-.t-hazardous-material:before { content: "\f12a"; }
-.t-height:before { content: "\f12b"; }
-.t-highway-divided:before { content: "\f12c"; }
-.t-hitch-hiking:before { content: "\f12d"; }
-.t-level-crossing:before { content: "\f12e"; }
-.t-light-rail:before { content: "\f12f"; }
-.t-lightground-railroad-crossing:before { content: "\f130"; }
-.t-loop-270:before { content: "\f131"; }
-.t-lorry:before { content: "\f132"; }
-.t-lorry-left:before { content: "\f133"; }
-.t-low-clearance:before { content: "\f134"; }
-.t-merge:before { content: "\f135"; }
-.t-metric-clearance:before { content: "\f136"; }
-.t-moped:before { content: "\f137"; }
-.t-motorbike:before { content: "\f138"; }
-.t-narrow-road-both:before { content: "\f139"; }
-.t-narrow-road-l:before { content: "\f13a"; }
-.t-no-l-or-u-turn:before { content: "\f13b"; }
-.t-octagon:before { content: "\f13c"; }
-.t-offset-roads:before { content: "\f13d"; }
-.t-parking:before { content: "\f13e"; }
-.t-pass-l-r:before { content: "\f13f"; }
-.t-pedestrian:before { content: "\f140"; }
-.t-pedestrian-crossing:before { content: "\f141"; }
-.t-pedestrians:before { content: "\f142"; }
-.t-play-ground:before { content: "\f143"; }
-.t-pretzel-loop:before { content: "\f144"; }
-.t-railroad:before { content: "\f145"; }
-.t-railway-xing-secured:before { content: "\f146"; }
-.t-railway-xing-unsecured:before { content: "\f147"; }
-.t-right-of-way:before { content: "\f148"; }
-.t-right-of-way-l:before { content: "\f149"; }
-.t-roadworks:before { content: "\f14a"; }
-.t-rollerblading:before { content: "\f14b"; }
-.t-roundabout:before { content: "\f14c"; }
-.t-school:before { content: "\f14d"; }
-.t-share-roads:before { content: "\f14e"; }
-.t-side-road-a-a-l:before { content: "\f14f"; }
-.t-side-road-a-a-r:before { content: "\f150"; }
-.t-side-road-p-l:before { content: "\f151"; }
-.t-side-road-p-r:before { content: "\f152"; }
-.t-single-2-reverse-curve:before { content: "\f153"; }
-.t-skewed-railroads:before { content: "\f154"; }
-.t-slippery:before { content: "\f155"; }
-.t-slippery-road:before { content: "\f156"; }
-.t-snowflake:before { content: "\f157"; }
-.t-square-angular:before { content: "\f158"; }
-.t-square-rounded:before { content: "\f159"; }
-.t-steep-hill:before { content: "\f15a"; }
-.t-stop:before { content: "\f15b"; }
-.t-t-roads:before { content: "\f15c"; }
-.t-tractor:before { content: "\f15d"; }
-.t-trailer:before { content: "\f15e"; }
-.t-train-electric:before { content: "\f15f"; }
-.t-tram:before { content: "\f160"; }
-.t-tri-angular:before { content: "\f161"; }
-.t-tri-rounded:before { content: "\f162"; }
-.t-truck:before { content: "\f163"; }
-.t-truck-rollover-speed:before { content: "\f164"; }
-.t-trucks-rollover:before { content: "\f165"; }
-.t-turn-90-l:before { content: "\f166"; }
-.t-turn-curve-speed:before { content: "\f167"; }
-.t-turn-l:before { content: "\f168"; }
-.t-turn-l-curve:before { content: "\f169"; }
-.t-turn-reverse-left:before { content: "\f16a"; }
-.t-turnaround:before { content: "\f16b"; }
-.t-turnaround2:before { content: "\f16c"; }
-.t-u-turn:before { content: "\f16d"; }
-.t-wild-animal:before { content: "\f16e"; }
-.t-windbag:before { content: "\f16f"; }
-.t-winding-road-left:before { content: "\f170"; }
-.t-y-roads:before { content: "\f171"; }
+.t-arrows_both_bra:before { content: "\f109"; }
+.t-bending-priority:before { content: "\f10a"; }
+.t-bicycle:before { content: "\f10b"; }
+.t-bicycle-slippery:before { content: "\f10c"; }
+.t-bump:before { content: "\f10d"; }
+.t-bump_bra:before { content: "\f10e"; }
+.t-bump_road_bra:before { content: "\f10f"; }
+.t-bumps:before { content: "\f110"; }
+.t-bus:before { content: "\f111"; }
+.t-car:before { content: "\f112"; }
+.t-car-left:before { content: "\f113"; }
+.t-car-right:before { content: "\f114"; }
+.t-children:before { content: "\f115"; }
+.t-circle-bar-rounded:before { content: "\f116"; }
+.t-circle-bg:before { content: "\f117"; }
+.t-circle-o:before { content: "\f118"; }
+.t-circle-separator:before { content: "\f119"; }
+.t-cliff:before { content: "\f11a"; }
+.t-cross-roads:before { content: "\f11b"; }
+.t-curve-r-l:before { content: "\f11c"; }
+.t-cyclists_crossing_bra:before { content: "\f11d"; }
+.t-d-curve-l:before { content: "\f11e"; }
+.t-dead-end:before { content: "\f11f"; }
+.t-descent:before { content: "\f120"; }
+.t-disabled-p:before { content: "\f121"; }
+.t-domestic-animal:before { content: "\f122"; }
+.t-end:before { content: "\f123"; }
+.t-equestrian:before { content: "\f124"; }
+.t-europe_stars:before { content: "\f125"; }
+.t-exclamation:before { content: "\f126"; }
+.t-falling-rocks:before { content: "\f127"; }
+.t-fire-station:before { content: "\f128"; }
+.t-flaggers:before { content: "\f129"; }
+.t-footpath:before { content: "\f12a"; }
+.t-h:before { content: "\f12b"; }
+.t-h-align-l:before { content: "\f12c"; }
+.t-hairpin-curve:before { content: "\f12d"; }
+.t-hazardous-material:before { content: "\f12e"; }
+.t-height:before { content: "\f12f"; }
+.t-highway-divided:before { content: "\f130"; }
+.t-hitch-hiking:before { content: "\f131"; }
+.t-level-crossing:before { content: "\f132"; }
+.t-light-rail:before { content: "\f133"; }
+.t-lightground-railroad-crossing:before { content: "\f134"; }
+.t-loop-270:before { content: "\f135"; }
+.t-loose_road_surface_bra:before { content: "\f136"; }
+.t-lorry:before { content: "\f137"; }
+.t-lorry-left:before { content: "\f138"; }
+.t-low-clearance:before { content: "\f139"; }
+.t-merge:before { content: "\f13a"; }
+.t-metric-clearance:before { content: "\f13b"; }
+.t-moped:before { content: "\f13c"; }
+.t-motorbike:before { content: "\f13d"; }
+.t-narrow-road-both:before { content: "\f13e"; }
+.t-narrow-road-l:before { content: "\f13f"; }
+.t-no-l-or-u-turn:before { content: "\f140"; }
+.t-octagon:before { content: "\f141"; }
+.t-offset-roads:before { content: "\f142"; }
+.t-parking:before { content: "\f143"; }
+.t-pass-l-r:before { content: "\f144"; }
+.t-pedestrian:before { content: "\f145"; }
+.t-pedestrian-crossing:before { content: "\f146"; }
+.t-pedestrian_bra:before { content: "\f147"; }
+.t-pedestrian_crossing_bra:before { content: "\f148"; }
+.t-pedestrians:before { content: "\f149"; }
+.t-play-ground:before { content: "\f14a"; }
+.t-pretzel-loop:before { content: "\f14b"; }
+.t-railroad:before { content: "\f14c"; }
+.t-railway-xing-secured:before { content: "\f14d"; }
+.t-railway-xing-unsecured:before { content: "\f14e"; }
+.t-right-of-way:before { content: "\f14f"; }
+.t-right-of-way-l:before { content: "\f150"; }
+.t-roadworks:before { content: "\f151"; }
+.t-roadworks_bra:before { content: "\f152"; }
+.t-rollerblading:before { content: "\f153"; }
+.t-roundabout:before { content: "\f154"; }
+.t-school:before { content: "\f155"; }
+.t-school_zone_bra:before { content: "\f156"; }
+.t-share-roads:before { content: "\f157"; }
+.t-side-road-a-a-l:before { content: "\f158"; }
+.t-side-road-a-a-r:before { content: "\f159"; }
+.t-side-road-p-l:before { content: "\f15a"; }
+.t-side-road-p-r:before { content: "\f15b"; }
+.t-single-2-reverse-curve:before { content: "\f15c"; }
+.t-skewed-railroads:before { content: "\f15d"; }
+.t-slippery:before { content: "\f15e"; }
+.t-slippery-road:before { content: "\f15f"; }
+.t-snowflake:before { content: "\f160"; }
+.t-square-angular:before { content: "\f161"; }
+.t-square-rounded:before { content: "\f162"; }
+.t-steep-hill:before { content: "\f163"; }
+.t-stop:before { content: "\f164"; }
+.t-t-roads:before { content: "\f165"; }
+.t-tractor:before { content: "\f166"; }
+.t-trailer:before { content: "\f167"; }
+.t-train-electric:before { content: "\f168"; }
+.t-tram:before { content: "\f169"; }
+.t-transit_bra:before { content: "\f16a"; }
+.t-tri-angular:before { content: "\f16b"; }
+.t-tri-rounded:before { content: "\f16c"; }
+.t-truck:before { content: "\f16d"; }
+.t-truck-rollover-speed:before { content: "\f16e"; }
+.t-trucks-rollover:before { content: "\f16f"; }
+.t-turn-90-l:before { content: "\f170"; }
+.t-turn-curve-speed:before { content: "\f171"; }
+.t-turn-l:before { content: "\f172"; }
+.t-turn-l-curve:before { content: "\f173"; }
+.t-turn-reverse-left:before { content: "\f174"; }
+.t-turnaround:before { content: "\f175"; }
+.t-turnaround2:before { content: "\f176"; }
+.t-two_way_arrows_bra:before { content: "\f177"; }
+.t-u-turn:before { content: "\f178"; }
+.t-wild-animal:before { content: "\f179"; }
+.t-windbag:before { content: "\f17a"; }
+.t-winding-road-left:before { content: "\f17b"; }
+.t-y-roads:before { content: "\f17c"; }
 
 /** Base */
 .t {
