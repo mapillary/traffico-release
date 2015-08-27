@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "traffico";
-  src: url("../fonts/traffico.eot");
-  src: url("../fonts/traffico.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/traffico.woff") format("woff"),
-       url("../fonts/traffico.ttf") format("truetype"),
-       url("../fonts/traffico.svg#traffico") format("svg");
+  src: url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.eot");
+  src: url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.woff") format("woff"),
+       url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.ttf") format("truetype"),
+       url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.svg#traffico") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "traffico";
-    src: url("../fonts/traffico.svg#traffico") format("svg");
+    src: url("../fonts/traffico_db4d8a6c8a740c404d956e3c865f4257.svg#traffico") format("svg");
   }
 }
 
